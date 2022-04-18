@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name hotwire)(type Legacy)(uri ${KIPRJMOD}/hotwire.lib)(options "")(descr ""))
+  (lib (name hotwireboard-rescue)(type Legacy)(uri ${KIPRJMOD}/hotwireboard-rescue.lib)(options "")(descr ""))
+)

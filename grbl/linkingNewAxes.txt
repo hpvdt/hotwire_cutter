@@ -1,9 +1,0 @@
-Around line 300 in "gcode.c" is where the commands for different axes are routed based on designator.
-
-By default these are set to X,Y,Z and then additional axes as A,B,C. 
-
-However since some software may refer to the fourth axis as something else (e.g. "U") you can change one of the cases for the switch to match that letter.
-
-For example if we swap the "A" for a "U" everytime a command comes in for "U" grbl will treat it internally like it is axis "A".
-
-Axes are enabled or disabled by adjusting the corrisponding "#define" statements in "nuts_bolts.h"
